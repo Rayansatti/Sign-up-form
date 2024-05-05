@@ -1,0 +1,75 @@
+form{
+    display: flexbox;
+    justify-content: center;
+    align-items:center;
+    width: 50vw;
+    height: auto;
+    background-color: rgba(0, 183, 255, 0.445) ;
+    padding: 10vw;
+    margin: 2vw 10vw 10vw 10vw;
+    border-radius: 30px;
+    
+}
+body{
+    background-image: url(/home/rayan/sign-up-form/Sign-up-form/images/here-to-travel-seqfFkckQcI-unsplash.jpg);
+    background-size:cover;
+}
+label{
+    display:inline-block;
+    
+}
+fieldset{
+    border-width: 2px;
+    border-style:solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    border-radius: 50em;
+}
+input{
+    border-width: 2px;
+    border-style:hidden;
+    border-radius: 50em;
+    background-color: rgba(213, 186, 226, 0.45);
+    
+}
+h1{
+    margin: 5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(127, 146, 255);
+}
+p{
+    margin: 0.5vw 2vw .05vw 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(20, 22, 21); 
+    text-align: center;
+}
+
+button{
+    border-width: 2px;
+    border-style:solid;
+    border-image: linear-gradient(to right, rgb(0, 134, 139), rgb(78, 50, 204)) 1;
+    position: relative;
+    margin-left: 36%;
+    background-color: rgb(119, 102, 136);
+    
+    margin-top: 5vw;
+    width: 5rem;
+    height: 3rem;
+}
+input[type="text"]{
+    width: 100%;
+}
+input[type="email"]{
+    width: 100%;
+}
+input[type="tel"]{
+    width: 100%;
+}
+input[type="password"]{
+    width: 100%;
+}
+input[type="number"]{
+    width: 100%;
+}
+input[type="url"]{
+    width: 100%;
+}

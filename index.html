@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sing-up form</title>
+        <link rel="stylesheet" href="/home/rayan/sign-up-form/style.css">
+    </head>
+    <body>
+        <h1>ArchiteX</h1>
+        <p>Thank you for your interest in joining ArchiteX. Please fill out the form below to create your account</p>
+        <form action="example.com/path" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first-name">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="first-name">
+
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <label for="confirm-pass">Confirm Password</label>
+                <input type="password" id="confirm-pass" name="confirm-pass">
+            </fieldset>
+            <fieldset>
+                <legend>Professional Information</legend>
+                <label for="company-name">Company Name (if applicable)</label>
+                <input type="text" id="company-name" name="company-name">
+                <label for="job-title" >Job Title</label>
+                <input type="text" id="job-title" name="job-title">
+                <label for="years-of-ex">Years of Experience</label>
+                <input type="number" id="years-of-ex" name="years-of-ex">
+                <label for="portfolio">Portfolio/Website (if applicable)</label>
+                <input type="url" id="portfolio" name="portfolio">
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <p>What type of projects are you interested in?</p>
+                <div>
+                    <input type="checkbox" id="Residential" name="Residential">
+                    <label for="Residential">Residential</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Commercial" name="Commercial">
+                    <label for="Commercial">Commercial</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Institutional" name="Institutional">
+                    <label for="Institutional">Institutional</label>
+                </div>
+
+                <p>How did you hear about us?</p>
+                <div>
+                    <input type="checkbox" id="social" name="social">
+                    <label for="social">Social Media</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Referral" name="Referral">
+                    <label for="Referral">Referral</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Website" name="Website">
+                    <label for="Website">Website</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="other" name="other" checked>
+                    <label for="other">Other</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Terms and Conditions</legend>
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms"> I have read and agree to the Terms and Conditions.</label>
+            </fieldset>
+            <button>Create Account</button>
+            <p>Already have an account? <a href="example.com/path">Log in</a></p>
+        </form>
+        <footer>
+            <div>
+                <p>© Copyright 2024 ArchiteX. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
